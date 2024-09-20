@@ -78,7 +78,8 @@ SELECT [CustomerId]
 
   where Country in ('USA', 'Canada' , 'Brazil')
 
---Listar todas las pistas del artista 'Queen' (Artist.Name = 'Queen')
+--Listar todas las pistas del artista 'Queen' (Artist.Name = 'Queen') 
+--He puesto like en vez de = porque no se si queríais que tambien salieran las colaboraciones por ejemplo la que está con Bowie. Si solo queréis que salgan exclusivamente las de Queen sería poniento un Composer = 'Queen'
   SELECT [TrackId]
       ,[Name]
       ,[AlbumId]
